@@ -12,6 +12,7 @@ export function useMic() {
         audio: {
           echoCancellation: true,
           noiseSuppression: true,
+          autoGainControl: false,
           sampleRate: 48000
         }
       });
